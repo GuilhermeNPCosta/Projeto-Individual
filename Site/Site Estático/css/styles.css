@@ -14,12 +14,22 @@
 
 .banner .container p {
     width: 280px;
-    color:hotpink;
+    color:gold;
     font-size: 26px;
+    text-align: center;
+}
+
+.veu{
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    padding: 30px;
+    width: 25vw;
+    border-radius: 30px;
+
 }
 
 .banner .container b{
-    color:crimson;
+    color:red;
 }
 
 .social {
