@@ -14,6 +14,9 @@ body {
 header {
     padding: 15px 0;
     background-color: black;
+    position: fixed;
+    top: auto;
+    width: 100%;
 }
 
 .container {
@@ -39,12 +42,12 @@ header {
 .navegação ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
 }
 
 .navegação a {
     color:yellow;
     text-decoration:none;
+    margin-right: 1.2rem;
 }
 
 .navegação ul li {
