@@ -2,7 +2,7 @@
 
 .banner {
     background-image: url("../img/dungeons-banner.png");
-    padding: 100px 0;
+    padding: 120px 0;
     background-size: cover;
 }
 
@@ -22,8 +22,8 @@
  .veu{
     background-color: rgba(0, 0, 0, 0.75);
     display: flex;
-    padding: 30px;
-    width: 25vw;
+    padding: 20px;
+    width: 23vw;
     border-radius: 30px;
 
 }
@@ -32,8 +32,10 @@
     color:red;
 }
 
+
 .sobre {
-    background-color:indigo;       
+    background-color:rgb(23, 27, 27);
+    padding: 50px 0;       
 }
 
 .texto {
@@ -42,7 +44,7 @@
     display: flex;
     padding: 30px;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .sobre p {
@@ -51,4 +53,27 @@
     color: gold;
     font-weight: bold;
     font-size: 20px;
+}
+
+.banner2 {
+    background-image: url("../img/dragao-banner.jpg");
+    padding: 120px 0;
+    background-size: cover;   
+}
+
+.banner2 .container {
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2 .container p {
+    width: 280px;
+    color:gold;
+    font-size: 26px;
+    text-align: center;
+}
+
+.banner2 .container b{
+    color:red;
 }
