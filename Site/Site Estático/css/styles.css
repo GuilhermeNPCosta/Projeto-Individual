@@ -77,3 +77,52 @@
 .banner2 .container b{
     color:red;
 }
+
+.banner3 {
+    background-image: url("../img/cenario-banner.jpg");
+    padding: 150px 0;
+    background-size: cover;   
+}
+
+.banner3 .container {
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner3 .container p {
+    width: 100%;
+    color:gold;
+    font-size: 20px;
+    text-align:center;
+}
+
+.banner3 .container b {
+    color:red;
+}
+
+.banner3 .veu {
+    width: 100%;
+}
+
+.sobre_dif {
+    background-color:rgb(23, 27, 27);
+    padding: 50px 0;      
+}
+
+.sobre_dif .texto {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.sobre_dif p {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: gold;
+    font-weight: bold;
+    font-size: 18px;
+}
